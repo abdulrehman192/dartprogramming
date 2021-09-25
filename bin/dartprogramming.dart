@@ -1,4 +1,5 @@
 
+import 'ifandloops.dart';
 import 'variablesandmethods.dart';
 
 void main(List<String> arguments) {
@@ -33,5 +34,17 @@ void main(List<String> arguments) {
   print('Add = ${add  + 5}');
   print('Add = ${Add(25, 5) }');
 
+  //Call to the method
+  checkPositive(15);
+  checkPositive(-18);
+   //Call to the methods
+  print('Your Grade : ${checkGrade(85)}');
+  print('Your Grade : ${checkGrade(40)}');
+  print('Your Grade : ${checkGrade(77)}');
+  print('Your Grade : ${checkGrade(63)}');
+  print('Your Grade : ${checkGrade(93)}');
+  print('Your Grade : ${checkGrade(58)}');
 
+  //Call to the method
+  checkEvenOrOdd(957);
 }
