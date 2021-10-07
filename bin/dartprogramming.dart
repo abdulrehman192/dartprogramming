@@ -1,5 +1,6 @@
 
-import 'ifandloops.dart';
+import 'ifelse.dart';
+import 'loops.dart';
 import 'variablesandmethods.dart';
 
 void main(List<String> arguments) {
@@ -13,12 +14,13 @@ void main(List<String> arguments) {
   //Boolean ==> store true or false value
   bool check = false;
   //List ==> data structure build on the base of arrays
-  List<String> names = ['Ali'];
+  List<String> names = ['Ali','hame'];
 
   //var ==> store dynamic type data
-  var password = 'admin';
+  var password = 123.69;
   //dynamic ==> store unknown data specially when we connect our app to online server
   dynamic country = 'Pakistan';
+  country = 455;
   //Map ==> Store json data or API data or database data
 //Call to the method
   SUM();
@@ -47,4 +49,10 @@ void main(List<String> arguments) {
 
   //Call to the method
   checkEvenOrOdd(957);
+
+  printTable(5);
+  //call to the method
+  checkPrime(117);
+
+  checkEvenOrOdd(15);
 }
